@@ -2,8 +2,8 @@
 package parser
 
 import (
-	"github.com/hdt3213/rdb/core"
-	"github.com/hdt3213/rdb/model"
+	"github.com/kuzznya/rdb/core"
+	"github.com/kuzznya/rdb/model"
 )
 
 const (

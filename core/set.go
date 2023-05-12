@@ -3,7 +3,7 @@ package core
 import (
 	"encoding/binary"
 	"fmt"
-	"github.com/hdt3213/rdb/model"
+	"github.com/kuzznya/rdb/model"
 	"math"
 	"sort"
 	"strconv"

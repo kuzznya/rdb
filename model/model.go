@@ -288,3 +288,13 @@ type DBSizeObject struct {
 func (o *DBSizeObject) GetType() string {
 	return DBSizeType
 }
+
+type ModuleTypeObject struct {
+	*BaseObject
+	ModuleType string
+	Value      interface{}
+}
+
+func (m ModuleTypeObject) GetType() string {
+	return m.ModuleType
+}
